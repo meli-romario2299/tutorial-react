@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba del componente de Login Testeando la funcionalidad del formulario 1`] = `
+<div>
+  <div>
+    Calculadora
+  </div>
+  <hr />
+  <button>
+    Sumar +1
+  </button>
+  <div>
+    Resultado: 
+    10
+  </div>
+  <button>
+    Back
+  </button>
+</div>
+`;
+
+exports[`Prueba del componente de Login Verificar si el componente se encuentra renderizado 1`] = `
+<div>
+  <div
+    id="login"
+    style="background-color: red;"
+  >
+    View de Login
+  </div>
+  <form>
+    <input
+      name="email"
+      placeholder="Ingrese su email corporativo"
+      type="email"
+      value="miemail@gmail.com"
+    />
+    <br />
+    <input
+      name="password"
+      placeholder="Ingresa tu password"
+      type="text"
+      value="12345"
+    />
+    <br />
+    <button
+      type="submit"
+    >
+      Login
+    </button>
+  </form>
+</div>
+`;
