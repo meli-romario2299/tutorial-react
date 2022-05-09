@@ -5,6 +5,7 @@ import { string } from "prop-types"
 import { useForm } from "../../hooks/useForm";
 
 import "./Login.css";
+import { login } from "../../services/login";
 
 const Login = ({ backgroundColor }) => {
   
@@ -19,8 +20,10 @@ const Login = ({ backgroundColor }) => {
 
   let navigate = useNavigate();
   
-  const handleLogin = () => {
-    navigate('/dashboard');
+  const handleLogin = async () => {
+    const response = await login();
+    console.log(response)
+    // navigate('/dashboard');
   }
 
   return (
